@@ -1,16 +1,23 @@
-# CarShowroom-DatabaseMgmt
-This is a simple Car showroom database management system project !
-The user can view and also purchase cars. Also this application has an admin part where the dealer can 
-add cars to his showroom and simulataneously update his database.
+Car Showroom Database Management System
+This is a simple Car Showroom database management system project! The user can view and purchase cars, while the admin can manage the inventory by adding and updating car details in the showroom.
 
-Steps to run the project:
+Features
+User Interface: Users can view available cars and make purchases.
+Admin Interface: Dealers can add new cars to the showroom and update the database.
+Installation Steps
+Install WAMP Server:
 
-1) install wamp server : link -:  http://www.wampserver.com/en/
-2) type: localhost in address bar and open phpmyadmin
-3) create a database - " car_showroom "
-4) set password for the database as : " root "
-5) run the wamp server 
-6) start the project ... " localhost/carshowroom
-7) for admin part .... " localhost/carshowroom/admin/admin.php
+Download and install WAMP Server from here.
+Set Up the Database:
 
-:) have fun !
+Open your web browser and type localhost in the address bar to access phpMyAdmin.
+Create a new database named car_showroom.
+Set the password for the database to root.
+Run the WAMP Server:
+
+Start the WAMP Server to enable your local web server.
+Start the Project:
+
+Open your browser and navigate to http://localhost/carshowroom to access the user interface.
+For the admin interface, navigate to http://localhost/carshowroom/admin/admin.php.
+
